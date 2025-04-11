@@ -1,0 +1,40 @@
+/* *{
+  margin:0px;
+  padding:0px;
+  
+}
+landing page style 
+
+.header{
+  padding:4px;
+  background-color: lightgrey;
+  gap:31px;
+  display: flex;
+}
+.buttonforheader{
+  background-color:transparent;
+  border: 0px;
+  cursor: pointer;
+}
+.link{
+  text-decoration: none;
+  font-size:16px;
+}
+.buttonforheader:hover{ 
+  text-decoration: underline;
+  font-weight: bold;
+}
+.imagediv{
+  background-image:url('Image/imagecar.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+  height:591px;
+}
+.insideimage{
+  padding:10px;
+  color: white;
+  font-size:50px;
+  text-align: center;
+} */

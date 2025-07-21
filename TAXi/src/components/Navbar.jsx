@@ -36,16 +36,6 @@ const Navbar = () => {
         About Us
       </NavLink>
       <NavLink
-        to="/Book"
-        className={({ isActive }) =>
-          `font-semibold cursor-pointer h-fit hover:underline ${
-            isActive ? "text-red-500" : ""
-          }`
-        }
-      >
-        Book Taxi
-      </NavLink>
-      <NavLink
         to="/Updates"
         className="font-semibold cursor-pointer h-fit hover:underline"
         style={(value) => {

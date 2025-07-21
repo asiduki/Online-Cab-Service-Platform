@@ -1,3 +1,3 @@
 {
-  "URL": "mongodb://localhost:27017/taxiservice"
+  "URL": "mongodb+srv://udithakur436:jadon%40%4012@cluster0.8hpuku7.mongodb.net/taxiservice"
 }

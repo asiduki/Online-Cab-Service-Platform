@@ -1,9 +1,11 @@
-const express = require("express");
+import 'dotenv/config'; // Loads environment variables
+import express from 'express';
+import cors from 'cors';
+import db from './config/connection.js'; 
+import LoginRouter from './Src/Routes/Login.js'; 
+
 const app = express();
-const db = require("./config/connection")
-const cors = require("cors");
-const LoginRouter = require("./Src/Routes/Login");
-require('dotenv').config();
+
 
 
 app.use(cors());

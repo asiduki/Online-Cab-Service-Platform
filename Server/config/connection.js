@@ -1,7 +1,8 @@
-const {mongoose} = require("mongoose");
-require('dotenv').config();
-const dbgr = require("debug")("development:mongoose");
-const config = require("config");
+import {mongoose} from "mongoose";
+import 'dotenv/config';
+import Debug from 'debug';
+const dbgr = Debug('development:mongoose');
+import config from "config";
 
 const URL = process.env.URL;
 
@@ -12,4 +13,4 @@ mongoose.connect(config.get("URL")).then(()=>{
     dbgr(err);
 })
 
-module.exports = mongoose.connection;
+export default mongoose.connection;

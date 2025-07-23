@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Style.css";
 import Navbar from "./Navbar";
 import { Link, NavLink } from "react-router-dom";
+import { userContext } from "../Context/UserContext/Context";
 
 function Home() {
+  // const [isLogin] = useContext(userContext);
   return (
     <>
       <Navbar />

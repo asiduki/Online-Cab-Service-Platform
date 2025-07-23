@@ -8,7 +8,7 @@ import Feedback from '../src/components/feedback';
 import Login from '../src/components/Login';
 import Contact from '../src/components/Contact';
 import Navbar from '../src/components/Navbar';
-
+import Page from '../src/components/Page';
 const handledata = (data)=>{
   console.log(data);
 }
@@ -17,13 +17,14 @@ const Routing = () => {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<Home/>}/>
+        <Route path="/Home" element={<Home/>}/>
         <Route path="/About" element={<About/>}/>
         <Route  path="/Book" element={<Book/>}/>
         <Route  path="/Updates" element={<Updates/>}/>
         <Route  path="/Feedback" element={<Feedback/>}/>
         <Route path='/Contact' element={<Updates/>}/>
         <Route  path="/Login" element={<Login handledata={handledata}/>}/>
+        <Route  path="/" element={<Page/>}/>
         </Routes>
     </div>
   )
